@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eux
+set -e -u -x
 
 ls -la
 mv dependency-cache/node_modules hello-hapi
